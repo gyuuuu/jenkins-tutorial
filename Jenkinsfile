@@ -120,6 +120,7 @@ pipeline {
 
             dir ('./server'){
                 sh """
+                docker rm -f $(docker ps -aq)
                 docker build . -t server
                 """
             }
