@@ -119,10 +119,10 @@ pipeline {
             echo 'Build Backend'
 
             dir ('./server'){
-                sh """
+                sh '''
                 docker rm -f $(docker ps -aq)
                 docker build . -t server
-                """
+                '''
             }
           }
 
