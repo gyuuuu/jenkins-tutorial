@@ -1,10 +1,5 @@
 # Lecture
 
-## Website
-
-```sh
-```
-
 ## Server
 
 ```sh
